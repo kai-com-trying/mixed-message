@@ -6,4 +6,4 @@ const messages = ['Alex Hormozi: "Your business should solve a real, urgent prob
                   'Ali Abdaal: "Optimize your day-to-day routines, and you\'ll slowly build a life that feels aligned and fulfilling."']
 
 const randomMessageIndex = messages[Math.floor(Math.random() * 7)];
- 
+ console.log(randomMessageIndex)
