@@ -5,3 +5,5 @@ const messages = ['Alex Hormozi: "Your business should solve a real, urgent prob
                   'Steven Bartlett: "Your brand story matters; authenticity builds connection and drives growth."',
                   'Ali Abdaal: "Optimize your day-to-day routines, and you\'ll slowly build a life that feels aligned and fulfilling."']
 
+const randomMessageIndex = messages[Math.floor(Math.random() * 7)];
+ 
